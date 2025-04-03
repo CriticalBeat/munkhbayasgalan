@@ -56,6 +56,7 @@ const Home = () => {
  
     return (
         <div className="w-full bg-white">
+            <button className="absolute top-4 left-4 px-4 py-2 bg-gray-300 rounded-lg hover:bg-gray-400 transition" onClick={() => router.push("/")}>Back</button>
             <div className="w-full h-96 text-black bg-center flex flex-col justify-between items-center bg-white">
                 <header className="w-full h-20 flex justify-between items-center font-semibold px-30">
                     <div className="w-full flex justify-between items-center">
